@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01473CC81CAF2A8E00CF0C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01473CC71CAF2A8E00CF0C85 /* AppDelegate.swift */; };
+		01473CCA1CAF2A8E00CF0C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01473CC91CAF2A8E00CF0C85 /* ViewController.swift */; };
+		01473CCD1CAF2A8E00CF0C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01473CCB1CAF2A8E00CF0C85 /* Main.storyboard */; };
+		01473CCF1CAF2A8E00CF0C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01473CCE1CAF2A8E00CF0C85 /* Assets.xcassets */; };
+		01473CD21CAF2A8E00CF0C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01473CD01CAF2A8E00CF0C85 /* LaunchScreen.storyboard */; };
+		01473CDD1CAF2A8E00CF0C85 /* FlashDietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01473CDC1CAF2A8E00CF0C85 /* FlashDietTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01473CD91CAF2A8E00CF0C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01473CBC1CAF2A8E00CF0C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01473CC31CAF2A8E00CF0C85;
+			remoteInfo = FlashDiet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01473CC41CAF2A8E00CF0C85 /* FlashDiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashDiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01473CC71CAF2A8E00CF0C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01473CC91CAF2A8E00CF0C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01473CCC1CAF2A8E00CF0C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01473CCE1CAF2A8E00CF0C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01473CD11CAF2A8E00CF0C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01473CD31CAF2A8E00CF0C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01473CD81CAF2A8E00CF0C85 /* FlashDietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashDietTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01473CDC1CAF2A8E00CF0C85 /* FlashDietTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashDietTests.swift; sourceTree = "<group>"; };
+		01473CDE1CAF2A8E00CF0C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01473CC11CAF2A8E00CF0C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01473CD51CAF2A8E00CF0C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01473CBB1CAF2A8E00CF0C85 = {
+			isa = PBXGroup;
+			children = (
+				01473CC61CAF2A8E00CF0C85 /* FlashDiet */,
+				01473CDB1CAF2A8E00CF0C85 /* FlashDietTests */,
+				01473CC51CAF2A8E00CF0C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01473CC51CAF2A8E00CF0C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01473CC41CAF2A8E00CF0C85 /* FlashDiet.app */,
+				01473CD81CAF2A8E00CF0C85 /* FlashDietTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01473CC61CAF2A8E00CF0C85 /* FlashDiet */ = {
+			isa = PBXGroup;
+			children = (
+				01473CC71CAF2A8E00CF0C85 /* AppDelegate.swift */,
+				01473CC91CAF2A8E00CF0C85 /* ViewController.swift */,
+				01473CCB1CAF2A8E00CF0C85 /* Main.storyboard */,
+				01473CCE1CAF2A8E00CF0C85 /* Assets.xcassets */,
+				01473CD01CAF2A8E00CF0C85 /* LaunchScreen.storyboard */,
+				01473CD31CAF2A8E00CF0C85 /* Info.plist */,
+			);
+			path = FlashDiet;
+			sourceTree = "<group>";
+		};
+		01473CDB1CAF2A8E00CF0C85 /* FlashDietTests */ = {
+			isa = PBXGroup;
+			children = (
+				01473CDC1CAF2A8E00CF0C85 /* FlashDietTests.swift */,
+				01473CDE1CAF2A8E00CF0C85 /* Info.plist */,
+			);
+			path = FlashDietTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01473CC31CAF2A8E00CF0C85 /* FlashDiet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01473CE11CAF2A8E00CF0C85 /* Build configuration list for PBXNativeTarget "FlashDiet" */;
+			buildPhases = (
+				01473CC01CAF2A8E00CF0C85 /* Sources */,
+				01473CC11CAF2A8E00CF0C85 /* Frameworks */,
+				01473CC21CAF2A8E00CF0C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashDiet;
+			productName = FlashDiet;
+			productReference = 01473CC41CAF2A8E00CF0C85 /* FlashDiet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01473CD71CAF2A8E00CF0C85 /* FlashDietTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01473CE41CAF2A8E00CF0C85 /* Build configuration list for PBXNativeTarget "FlashDietTests" */;
+			buildPhases = (
+				01473CD41CAF2A8E00CF0C85 /* Sources */,
+				01473CD51CAF2A8E00CF0C85 /* Frameworks */,
+				01473CD61CAF2A8E00CF0C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01473CDA1CAF2A8E00CF0C85 /* PBXTargetDependency */,
+			);
+			name = FlashDietTests;
+			productName = FlashDietTests;
+			productReference = 01473CD81CAF2A8E00CF0C85 /* FlashDietTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01473CBC1CAF2A8E00CF0C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeffrey Camealy";
+				TargetAttributes = {
+					01473CC31CAF2A8E00CF0C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					01473CD71CAF2A8E00CF0C85 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 01473CC31CAF2A8E00CF0C85;
+					};
+				};
+			};
+			buildConfigurationList = 01473CBF1CAF2A8E00CF0C85 /* Build configuration list for PBXProject "FlashDiet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01473CBB1CAF2A8E00CF0C85;
+			productRefGroup = 01473CC51CAF2A8E00CF0C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01473CC31CAF2A8E00CF0C85 /* FlashDiet */,
+				01473CD71CAF2A8E00CF0C85 /* FlashDietTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01473CC21CAF2A8E00CF0C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01473CD21CAF2A8E00CF0C85 /* LaunchScreen.storyboard in Resources */,
+				01473CCF1CAF2A8E00CF0C85 /* Assets.xcassets in Resources */,
+				01473CCD1CAF2A8E00CF0C85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01473CD61CAF2A8E00CF0C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01473CC01CAF2A8E00CF0C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01473CCA1CAF2A8E00CF0C85 /* ViewController.swift in Sources */,
+				01473CC81CAF2A8E00CF0C85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01473CD41CAF2A8E00CF0C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01473CDD1CAF2A8E00CF0C85 /* FlashDietTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01473CDA1CAF2A8E00CF0C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01473CC31CAF2A8E00CF0C85 /* FlashDiet */;
+			targetProxy = 01473CD91CAF2A8E00CF0C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01473CCB1CAF2A8E00CF0C85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01473CCC1CAF2A8E00CF0C85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01473CD01CAF2A8E00CF0C85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01473CD11CAF2A8E00CF0C85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01473CDF1CAF2A8E00CF0C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01473CE01CAF2A8E00CF0C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01473CE21CAF2A8E00CF0C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashDiet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BranchComputing.FlashDiet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01473CE31CAF2A8E00CF0C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashDiet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BranchComputing.FlashDiet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01473CE51CAF2A8E00CF0C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashDietTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BranchComputing.FlashDietTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashDiet.app/FlashDiet";
+			};
+			name = Debug;
+		};
+		01473CE61CAF2A8E00CF0C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashDietTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BranchComputing.FlashDietTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashDiet.app/FlashDiet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01473CBF1CAF2A8E00CF0C85 /* Build configuration list for PBXProject "FlashDiet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01473CDF1CAF2A8E00CF0C85 /* Debug */,
+				01473CE01CAF2A8E00CF0C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01473CE11CAF2A8E00CF0C85 /* Build configuration list for PBXNativeTarget "FlashDiet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01473CE21CAF2A8E00CF0C85 /* Debug */,
+				01473CE31CAF2A8E00CF0C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01473CE41CAF2A8E00CF0C85 /* Build configuration list for PBXNativeTarget "FlashDietTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01473CE51CAF2A8E00CF0C85 /* Debug */,
+				01473CE61CAF2A8E00CF0C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01473CBC1CAF2A8E00CF0C85 /* Project object */;
+}
