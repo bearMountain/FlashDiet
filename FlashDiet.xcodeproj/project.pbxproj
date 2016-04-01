@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		01473CC81CAF2A8E00CF0C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01473CC71CAF2A8E00CF0C85 /* AppDelegate.swift */; };
 		01473CCA1CAF2A8E00CF0C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01473CC91CAF2A8E00CF0C85 /* ViewController.swift */; };
-		01473CCD1CAF2A8E00CF0C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01473CCB1CAF2A8E00CF0C85 /* Main.storyboard */; };
 		01473CCF1CAF2A8E00CF0C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01473CCE1CAF2A8E00CF0C85 /* Assets.xcassets */; };
 		01473CD21CAF2A8E00CF0C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01473CD01CAF2A8E00CF0C85 /* LaunchScreen.storyboard */; };
 		01473CDD1CAF2A8E00CF0C85 /* FlashDietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01473CDC1CAF2A8E00CF0C85 /* FlashDietTests.swift */; };
@@ -29,7 +28,6 @@
 		01473CC41CAF2A8E00CF0C85 /* FlashDiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashDiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01473CC71CAF2A8E00CF0C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01473CC91CAF2A8E00CF0C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01473CCC1CAF2A8E00CF0C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01473CCE1CAF2A8E00CF0C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01473CD11CAF2A8E00CF0C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01473CD31CAF2A8E00CF0C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,10 +77,7 @@
 			children = (
 				01473CC71CAF2A8E00CF0C85 /* AppDelegate.swift */,
 				01473CC91CAF2A8E00CF0C85 /* ViewController.swift */,
-				01473CCB1CAF2A8E00CF0C85 /* Main.storyboard */,
-				01473CCE1CAF2A8E00CF0C85 /* Assets.xcassets */,
-				01473CD01CAF2A8E00CF0C85 /* LaunchScreen.storyboard */,
-				01473CD31CAF2A8E00CF0C85 /* Info.plist */,
+				01473CE71CAF2E6300CF0C85 /* Supporting Files */,
 			);
 			path = FlashDiet;
 			sourceTree = "<group>";
@@ -94,6 +89,16 @@
 				01473CDE1CAF2A8E00CF0C85 /* Info.plist */,
 			);
 			path = FlashDietTests;
+			sourceTree = "<group>";
+		};
+		01473CE71CAF2E6300CF0C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01473CCE1CAF2A8E00CF0C85 /* Assets.xcassets */,
+				01473CD01CAF2A8E00CF0C85 /* LaunchScreen.storyboard */,
+				01473CD31CAF2A8E00CF0C85 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +184,6 @@
 			files = (
 				01473CD21CAF2A8E00CF0C85 /* LaunchScreen.storyboard in Resources */,
 				01473CCF1CAF2A8E00CF0C85 /* Assets.xcassets in Resources */,
-				01473CCD1CAF2A8E00CF0C85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +225,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		01473CCB1CAF2A8E00CF0C85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01473CCC1CAF2A8E00CF0C85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		01473CD01CAF2A8E00CF0C85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
