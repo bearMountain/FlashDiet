@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setupRootVC() {
-        window?.rootViewController = ViewController()
+        window?.rootViewController = ListVC()
     }
 
 }
