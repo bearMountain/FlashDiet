@@ -26,7 +26,8 @@ class ListVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .Default, reuseIdentifier: "happy")
-        cell.textLabel?.text = "I'm a cell"
+        let row = indexPath.row
+        cell.textLabel?.text = "I'm a cell #\(row)"
         
         return cell
     }
