@@ -12,6 +12,7 @@
 		01473CCF1CAF2A8E00CF0C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01473CCE1CAF2A8E00CF0C85 /* Assets.xcassets */; };
 		01473CD21CAF2A8E00CF0C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01473CD01CAF2A8E00CF0C85 /* LaunchScreen.storyboard */; };
 		01473CDD1CAF2A8E00CF0C85 /* FlashDietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01473CDC1CAF2A8E00CF0C85 /* FlashDietTests.swift */; };
+		016779631CCA98860015BA17 /* NewRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016779621CCA98860015BA17 /* NewRecordVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		01473CD81CAF2A8E00CF0C85 /* FlashDietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashDietTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01473CDC1CAF2A8E00CF0C85 /* FlashDietTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashDietTests.swift; sourceTree = "<group>"; };
 		01473CDE1CAF2A8E00CF0C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016779621CCA98860015BA17 /* NewRecordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRecordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				01473CC71CAF2A8E00CF0C85 /* AppDelegate.swift */,
 				01473CC91CAF2A8E00CF0C85 /* ViewController.swift */,
 				01473CE71CAF2E6300CF0C85 /* Supporting Files */,
+				016779621CCA98860015BA17 /* NewRecordVC.swift */,
 			);
 			path = FlashDiet;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				01473CCA1CAF2A8E00CF0C85 /* ViewController.swift in Sources */,
 				01473CC81CAF2A8E00CF0C85 /* AppDelegate.swift in Sources */,
+				016779631CCA98860015BA17 /* NewRecordVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +388,7 @@
 				01473CE31CAF2A8E00CF0C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01473CE41CAF2A8E00CF0C85 /* Build configuration list for PBXNativeTarget "FlashDietTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +397,7 @@
 				01473CE61CAF2A8E00CF0C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
